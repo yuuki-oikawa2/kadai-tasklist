@@ -1,0 +1,23 @@
+[33mcommit 147d66a747b63ca2639880bd36357f848c8d3a25[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: yuuki.oikawa2 <yuki.oikawa.g@gmail.com>
+Date:   Sun Jan 16 13:54:49 2022 +0000
+
+    CRUD tasks
+
+[33mcommit d671b8e73c4fc56f4009275b26c6dd478afd9d4e[m
+Author: yuuki.oikawa2 <yuki.oikawa.g@gmail.com>
+Date:   Thu Jan 13 14:57:28 2022 +0000
+
+    task model
+
+[33mcommit 3032f760865991283e6472d67be7237e8828e8ac[m
+Author: yuuki.oikawa2 <yuki.oikawa.g@gmail.com>
+Date:   Thu Jan 13 14:11:13 2022 +0000
+
+    create database
+
+[33mcommit d9a7fe2ea4f4729145a59a707fc3e963dc7cc995[m
+Author: yuuki.oikawa2 <yuki.oikawa.g@gmail.com>
+Date:   Thu Jan 13 14:02:25 2022 +0000
+
+    init Rails Project
