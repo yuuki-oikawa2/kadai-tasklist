@@ -5,10 +5,6 @@ class UsersController < ApplicationController
     @pagy, @users = pagy(User.order(id: :desc), items: 25)
   end
 
-  def show
-    @user = User.find(params[:id])
-  end
-
   def new
     @user = User.new
   end
@@ -18,7 +14,7 @@ class UsersController < ApplicationController
 
     if @user.save
       flash[:success] = 'ユーザーを登録しました。'
-      redirect_to @user
+      redirect_to controller: :tasks, action: :index
     else
       flash.now[:danger] = 'ユーザーの登録に失敗しました。'
       render :new
